@@ -1,0 +1,61 @@
+css
+/* lec no 17 mini project.cont{
+  background-color: cyan;
+  display:flex;
+  width: 100%;
+  height:100vh;
+  color:burlywood;
+  //imp
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+body{
+
+  background-color:dimgrey;
+box-sizing: border-box;
+
+}
+.cont h1
+{ 
+  padding:20px 20px ;
+  background-color:rgb(255, 0, 200);
+  border-radius: 20px;
+}
+span{
+  background-color: coral;
+}
+
+
+
+
+js
+
+
+
+* lec no 17 mini projectimport './index.css';
+let currdate=new Date(2021, 5 , 5 ,2);
+currdate=currdate.getHours();
+let gretting="";
+const cssStyle= { };
+if(currdate>=1 && currdate<12 ){
+  gretting="GoodMornig";
+  cssStyle.color="green";
+}
+else if(currdate>=12 && currdate<19 )
+{
+  gretting="GoodAfterNoon";
+  cssStyle.color="yellow";
+}
+else{
+  gretting="goodnight";
+  cssStyle.color="black";
+}
+ReactDOM.render(<>
+<div className="cont">
+
+  <h1>hello sir , <span style={cssStyle}>{gretting}</span> </h1>,
+  </div>
+  </>,
+  document.getElementById("root")
+);

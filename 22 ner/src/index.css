@@ -1,0 +1,49 @@
+/*<div className="cards">
+          <div className="card">
+            <img src={props.imgsrc} alt="mypic" className="cardimg"/>
+              <div className="cardinfo">
+               <span className="cardcategory" >{props.title} </span>
+                <h3 className="cardtitle">{props.sname} </h3>
+                 <a href={props.link} target="_blank">
+                  <button>Watch Now</button>
+                </a>
+*/
+.cards{
+  background-color: cyan;
+  display:flex;
+  width: auto;
+  height:100vh;
+  color:burlywood;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+.card{
+  background-color:rgb(77, 21, 168);
+  display:flex;
+  width: auto;
+  height:auto;
+  color:burlywood;
+
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+}
+.cardinfo{
+
+}
+.cardcategory{
+
+}
+.cardtitle{
+
+}
+button{
+
+}
+img{
+
+}
+h3{
+
+}

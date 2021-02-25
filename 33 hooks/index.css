@@ -1,0 +1,102 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+}
+.sloatmachine{
+  padding: auto;
+  height: min-content;
+  width: 100%;
+}
+.sloatinner{
+  
+  font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+font-size: 10px;
+letter-spacing: 2px;
+color: rgb(37, 18, 44);
+background-color:rgb(226, 197, 226);
+text-align: center;
+  justify-content: center;
+  width: auto;
+  float: center;
+
+}
+.heading{
+  text-transform: uppercase;
+  background-color: rgb(204, 44, 44);
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 15px 15px ;
+  text-align: center;
+  color: rgb(252, 248, 248);
+
+}
+.cards{display:flex;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30px;
+  
+}
+.card{ 
+  align-items: center;
+  justify-content: center;
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175,0.885,0,1);
+  background-color:lightgoldenrodyellow ;
+  width: 20%;
+  border-radius: 10px;
+  box-shadow:0px 13px 10px -7px black;
+  float :center;
+}
+.card:hover{
+  box-shadow: tomato;
+  transform: scale(1.05,1.05);
+ 
+}
+.cardimg{
+  width:100%;
+  height:235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.cardinfo{
+background-color:rgb(207, 221, 173);
+border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+padding: 16px 24px 24px 16px;
+}
+.cardcategory{
+font-family: 'Times New Roman', Times, serif;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 2px;
+color: rgb(37, 18, 44);
+background-color:rgb(226, 197, 226);
+}
+.cardtitle{
+  font-weight:bolder;
+margin-top: 5px;
+margin-bottom: 10px;
+background-color: whitesmoke;
+text-transform: capitalize;
+font-family:'Courier New', Courier, monospace;
+}
+button{
+padding:5px 8px ;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 14px;
+letter-spacing: 2px;
+color:thistle;
+background-color: rgb(23, 26, 26);
+border-radius: 5px;
+cursor: pointer;
+
+}
+
+body{
+  background-color:dimgrey;
+box-sizing: border-box;
+align-items: center;
+justify-content: center;
+}
